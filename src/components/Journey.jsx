@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { journeyData } from "../data/journey";
+import { journeyData } from "../data/Journey.js";
 
 const Journey = () => {
   return (
