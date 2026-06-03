@@ -10,7 +10,6 @@ const Navbar = () => {
     "about",
     "skills",
     "projects",
-    "languages",
     "backend",
     "journey",
     "contact",
