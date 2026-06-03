@@ -9,7 +9,6 @@ import Journey from "../components/Journey";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import ScrollProgress from "../components/ScrollProgress"
-import Languages from "../components/Languages";
 const Home = () => {
   return (
     <>
@@ -25,8 +24,6 @@ const Home = () => {
       <Projects />
 
       <BackendExpertise />
-
-      <Languages/>
 
       <GithubActivity />
 
