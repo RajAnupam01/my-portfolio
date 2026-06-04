@@ -57,7 +57,7 @@ const Journey = () => {
 
                 <div className="relative z-10">
 
-                  <div className="w-8 h-8 rounded-full bg-purple-500 border-4 border-dark shadow-glow"></div>
+                  <div className="w-8 h-8 rounded-full bg-green-500 border-4 border-dark shadow-glow"></div>
 
                 </div>
 

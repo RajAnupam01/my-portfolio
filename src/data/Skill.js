@@ -1,49 +1,73 @@
+import { 
+  FaCode, 
+  FaMobileAlt, 
+  FaServer, 
+  FaDatabase, 
+  FaCloudUploadAlt, 
+  FaTools 
+} from "react-icons/fa";
+
 export const skills = [
   {
+    title: "Languages",
+    icon:FaCode,
+    items: [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Go (Golang)",
+      "Python",
+      "Java",
+      "C"
+
+    ]
+  },
+  {
     title: "Mobile Development",
+    icon:FaMobileAlt,
     items: [
       "React Native",
       "Expo",
       "Firebase",
-      "Supabase",
-      "TanStack Query"
+      "Zustand",
+      "TanStack Query",
+      "Native Wind" 
     ]
   },
   {
     title: "Backend Development",
+    icon:FaServer,
     items: [
       "Node.js",
-      "Express",
-      "REST APIs",
-      "JWT"
+      "Express.js",
+      "RESTful APIs",
+      "JWT (Auth)",
+      "Redis",
+      "Docker",
+      "Socket.IO"
     ]
   },
   {
-    title: "Databases",
+    title: "Databases & ORMs",
+    icon:FaDatabase,
     items: [
       "PostgreSQL",
+      "MySQL",
       "MongoDB",
       "Prisma ORM",
-      "Mongoose",
-      "Drizzle ORM"
+      "Drizzle ORM",
+      "Mongoose ODM"
     ]
   },
   {
-    title: "Cloud & Services",
+    title: "Cloud,Deployment and Tools",
+    icon:FaCloudUploadAlt, 
     items: [
-      "Cloudinary",
-      "Render",
+      "Vercel",
       "Railway",
-      "Vercel"
+      "Render",
+      "Cloudinary",
+      "Postman",
+      "Git & Github"
     ]
   },
-  {
-    title: "Tools",
-    items: [
-      "Git",
-      "GitHub",
-      "VS Code",
-      "Postman"
-    ]
-  }
 ];

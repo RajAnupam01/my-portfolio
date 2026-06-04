@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-2xl font-bold mb-4">
-              &lt; Anu.dev /&gt;
+              &lt; Anu.<span className="text-blue-300">dev</span> /&gt;
             </h2>
 
             <p className="text-gray-400 leading-7">
@@ -134,7 +134,7 @@ const Footer = () => {
         <div className="border-t border-white/10 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
           <p className="text-gray-500 text-sm">
-            © {year} Anu Kumar. All rights reserved.
+            © {year} {PERSONAL_INFO.name}. All rights reserved.
           </p>
 
           <Link

@@ -12,6 +12,7 @@ import {
 } from "react-icons/si";
 
 import { PERSONAL_INFO } from "../utils/constants";
+import profile from "../assets/images/profile.jpeg"
 
 const Hero = () => {
   return (
@@ -101,7 +102,7 @@ const Hero = () => {
             {/* Image */}
 
             <img
-              src="https://imgs.search.brave.com/927q-CnucMdnVP81xZT5F89wE5-xCAPe4NjlaO_8CdE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTM1/MDgzMDMwL3Bob3Rv/L3Blb3BsZS1naXZp/bmctYWR2aWNlLXRv/LXlvdW5nLW1hbi5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/Z0RNV3hNdndETE9J/eFdLbTl3bkpqRmc4/am8teG4ycWpGa2VG/Y1ROZGVDbz0"
+              src={profile}
               alt="Profile"
               className="
                 relative

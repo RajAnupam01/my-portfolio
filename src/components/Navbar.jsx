@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
 
           <h1 className="text-xl sm:text-2xl font-bold">
-            &lt; Anu.dev /&gt;
+            &lt; Anu.<span className="text-blue-300">dev</span> /&gt;
           </h1>
 
           {/* Desktop Menu */}
