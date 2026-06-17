@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { projects } from "../data/Project.js";
-import { FaGithub, FaPlay } from "react-icons/fa";
+import {  FaPlay } from "react-icons/fa";
 import { FiExternalLink, FiX } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -106,25 +106,13 @@ const Projects = () => {
                 {/* Buttons */}
 
                 <div className="flex justify-between items-center">
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noreferrer"
+                  <button
+                    onClick={() => openVideo(project.video)}
                     className="flex items-center gap-2 text-sm hover:text-purple-400 transition"
                   >
                     <FiExternalLink />
-                    Live Demo
-                  </a>
-
-                  <a
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-2 text-sm hover:text-purple-400 transition"
-                  >
-                    <FaGithub />
-                    GitHub
-                  </a>
+                    {project.demo?.hint || "Tap card to view demo"}
+                  </button>
                 </div>
               </div>
             </motion.div>
