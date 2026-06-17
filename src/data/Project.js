@@ -14,8 +14,7 @@ export const projects = [
       "MongoDB",
     ],
 
-    liveLink: "#",
-    githubLink: "#",
+    Demo: "Tap card to view demo"
   },
 
   {
@@ -33,8 +32,7 @@ export const projects = [
       "Node.js",
     ],
 
-    liveLink: "#",
-    githubLink: "#",
+     Demo: "Tap card to view demo"
   },
 
   {
@@ -50,8 +48,7 @@ export const projects = [
       "MongoDB",
     ],
 
-    liveLink: "#",
-    githubLink: "#",
+     Demo: "Tap card to view demo"
   },
 
   {
@@ -67,7 +64,6 @@ export const projects = [
       "PostgreSQL",
     ],
 
-    liveLink: "#",
-    githubLink: "#",
+    Demo: "Tap card to view demo"
   },
 ];
