@@ -1,15 +1,17 @@
 export const projects = [
   {
     id: 1,
-    title: "ShopEase Mobile",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQicN1d4AEeavsfHlLV7vQeE2J4xwXsfsNbzA&s",
+    title: "FullStack Authentication",
+    image: "https://staticfiles.acronis.com/images/content/f5b2480c9b196ea516e5f4483962ab85.png",
+    video:"/videos/auth.mp4",
     description:
-      "E-commerce mobile app with authentication, product management, cart and order tracking.",
+      "This is a React Native (Expo) mobile application demonstrating full authentication flow with JWT-based access and refresh tokens, secure login, registration, profile management, and avatar uploads. It implements a rotating refresh token mechanism to automatically renew access tokens every 15 minutes, providing a secure and smooth user experience.",
 
     technologies: [
       "React Native",
       "Node.js",
-      "PostgreSQL",
+      "Express.js",
+      "MongoDB",
     ],
 
     liveLink: "#",
@@ -18,12 +20,14 @@ export const projects = [
 
   {
     id: 2,
-    title: "TaskFlow",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVCEN3B4cFhGpnArI4uZ634DZPCejxeW7pTg&s",
+    title: "SocialMedia-App",
+    image: "https://dianapps.com/blog/wp-content/uploads/2023/09/Untitled-design-3-1.png",
+    video:"/videos/socialmedia-app.mp4",
     description:
-      "Task management app with teams, tasks, deadlines and real-time updates.",
+      "A Pinterest-inspired full-stack mobile application built from scratch using React Native (Expo) and Node.js, focusing on real-world architecture, authentication flows, and scalable backend design.",
 
     technologies: [
+      "React Native",
       "Express.js",
       "MongoDB",
       "Node.js",
