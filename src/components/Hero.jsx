@@ -71,9 +71,14 @@ const Hero = () => {
                 View Projects
               </button>
 
-              <button className="px-6 py-3 rounded-lg border border-white/20 hover:border-purple-500 transition">
-                Download Resume
-              </button>
+                <a
+                  href="/temp/myresume.pdf"
+                  download="My_Resume.pdf"
+                  className="px-6 py-3 rounded-lg border border-white/20 hover:border-purple-500 transition inline-block text-center"
+                >
+                  Download Resume
+                </a>
+              
 
             </div>
 
