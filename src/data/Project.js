@@ -67,7 +67,7 @@ export const projects = [
       "Finance tracking API with categorized transactions, analytics, and reporting features.",
     technologies: ["Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "Swagger"],
     demo: {
-      url: "https://digital-payment-platform-api.onrender.com",
+      url: "https://digital-payment-platform-api.onrender.com/api-docs",
       hint: "View API Docs",
     },
     github: "https://github.com/RajAnupam01/digital-payment-platform-API",
