@@ -18,6 +18,22 @@ export const projects = [
 
   {
     id: 2,
+    title: "MusicPlayer-web-app",
+    type: "web",
+    image:
+      "https://helios-i.mashable.com/imagery/articles/01iOLzOzAuQ5oa9mObPsCRy/hero-image.fill.size_1248x702.v1623386582.jpg",
+    description:
+      "Spotify-style music player app with authentication , browse songs, browse song via album, admin dashboard, add to playlist, and scalable backend architecture.",
+    technologies: ["Reactjs", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
+    demo: {
+      url: "https://beatlab-frontend.vercel.app/login",
+      hint: "View Live Demo",
+    },
+    github: "https://github.com/RajAnupam01/BeatLab",
+  },
+
+  {
+    id: 3,
     title: "FullStack Authentication",
     type: "mobile",
     image:
@@ -30,7 +46,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "SocialMedia-mobile-App",
     type: "mobile",
     image:
@@ -43,7 +59,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Question-Answer Platform API",
     type: "api",
     image: "https://pbs.twimg.com/media/GuWfJgBWUAAOuY1.jpg",
@@ -58,7 +74,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Digital-Payment Platform API",
     type: "api",
     image:
