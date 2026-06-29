@@ -72,8 +72,8 @@ const Hero = () => {
               </button>
 
                 <a
-                  href="/temp/myresume.pdf"
-                  download="My_Resume.pdf"
+                  href="/temp/ResumeCopy.pdf"
+                  download="ResumeCopy.pdf"
                   className="px-6 py-3 rounded-lg border border-white/20 hover:border-purple-500 transition inline-block text-center"
                 >
                   Download Resume
