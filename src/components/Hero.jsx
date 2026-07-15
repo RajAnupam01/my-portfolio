@@ -73,7 +73,7 @@ const Hero = () => {
 
                 <a
                   href="/temp/ResumeCopy.pdf"
-                  download="ResumeCopy.pdf"
+                  download="Resume.pdf"
                   className="px-6 py-3 rounded-lg border border-white/20 hover:border-purple-500 transition inline-block text-center"
                 >
                   Download Resume
