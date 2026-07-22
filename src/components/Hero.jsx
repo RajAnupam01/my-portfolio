@@ -68,7 +68,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4 mt-8">
 
               <button className="px-6 py-3 rounded-lg bg-gradient-to-r from-purple-600 to-blue-500 hover:opacity-90 transition">
-                View Projects
+                View Projects ⬇️
               </button>
 
                 <a

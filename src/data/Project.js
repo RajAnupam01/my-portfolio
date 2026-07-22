@@ -1,6 +1,18 @@
 export const projects = [
   {
     id: 1,
+    title: "Resturant-booking-mobile-app",
+    type: "mobile",
+    image:
+      "https://www.intelligentcio.com/africa/wp-content/uploads/sites/5/2018/05/Restaurant-booking-app.jpg",
+    video: "/videos/VID-20260719-WA0055.mp4",
+    description:
+      "TableIO a modern restaurant table booking application to provide seamless reservation experience with secure authentication, intuitive navigation, and real-time booking management.",
+    technologies: ["React Native", "Firebase", "NativeWind", "Zod"],
+    github: "https://github.com/RajAnupam01/FullStack_RN_Project-01",
+  },
+  {
+    id: 2,
     title: "SocialMedia-web-app",
     type: "web",
     image:
@@ -17,7 +29,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "MusicPlayer-web-app",
     type: "web",
     image:
@@ -31,48 +43,9 @@ export const projects = [
     },
     github: "https://github.com/RajAnupam01/BeatLab",
   },
-  {
-    id: 3,
-    title: "Resturant-booking-mobile-app",
-    type: "mobile",
-    image:
-      "https://www.intelligentcio.com/africa/wp-content/uploads/sites/5/2018/05/Restaurant-booking-app.jpg",
-    video: "/videos/VID-20260719-WA0055.mp4",
-    description:
-      "TableIO a modern restaurant table booking application to provide seamless reservation experience with secure authentication, intuitive navigation, and real-time booking management.",
-    technologies: ["React Native", "Firebase", "NativeWind", "Zod"],
-    github: "https://github.com/RajAnupam01/FullStack_RN_Project-01",
-  },
-
 
   {
     id: 4,
-    title: "FullStack Authentication",
-    type: "mobile",
-    image:
-      "https://staticfiles.acronis.com/images/content/f5b2480c9b196ea516e5f4483962ab85.png",
-    video: "/videos/auth.mp4",
-    description:
-      "Full-stack authentication app with JWT access & refresh tokens, secure login, and profile management with avatar upload.",
-    technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
-    github: "https://github.com/RajAnupam01/Authentication_RN",
-  },
-
-  {
-    id: 5,
-    title: "SocialMedia-mobile-App",
-    type: "mobile",
-    image:
-      "https://api.backlinko.com/app/uploads/2024/07/new-social-media-networks-blog-post-image.webp",
-    video: "/videos/socialmedia-app.mp4",
-    description:
-      "Pinterest-style social media app with authentication, post sharing, and scalable backend architecture.",
-    technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
-    github: "https://github.com/RajAnupam01/FullStack_RN_Project-01",
-  },
-
-  {
-    id: 6,
     title: "Question-Answer Platform API",
     type: "api",
     image: "https://pbs.twimg.com/media/GuWfJgBWUAAOuY1.jpg",
@@ -87,7 +60,7 @@ export const projects = [
   },
 
   {
-    id: 7,
+    id: 5,
     title: "Digital-Payment Platform API",
     type: "api",
     image:
@@ -101,4 +74,32 @@ export const projects = [
     },
     github: "https://github.com/RajAnupam01/digital-payment-platform-API",
   },
+
+  {
+    id: 6,
+    title: "FullStack Authentication",
+    type: "mobile",
+    image:
+      "https://staticfiles.acronis.com/images/content/f5b2480c9b196ea516e5f4483962ab85.png",
+    video: "/videos/auth.mp4",
+    description:
+      "Full-stack authentication app with JWT access & refresh tokens, secure login, and profile management with avatar upload.",
+    technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
+    github: "https://github.com/RajAnupam01/Authentication_RN",
+  },
+
+  {
+    id: 7,
+    title: "SocialMedia-mobile-App",
+    type: "mobile",
+    image:
+      "https://api.backlinko.com/app/uploads/2024/07/new-social-media-networks-blog-post-image.webp",
+    video: "/videos/socialmedia-app.mp4",
+    description:
+      "Pinterest-style social media app with authentication, post sharing, and scalable backend architecture.",
+    technologies: ["React Native", "Node.js", "Express.js", "MongoDB", "Cloudinary"],
+    github: "https://github.com/RajAnupam01/FullStack_RN_Project-01",
+  },
+
+
 ];
