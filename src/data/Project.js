@@ -31,9 +31,22 @@ export const projects = [
     },
     github: "https://github.com/RajAnupam01/BeatLab",
   },
-
   {
     id: 3,
+    title: "Resturant-booking-mobile-app",
+    type: "mobile",
+    image:
+      "https://www.intelligentcio.com/africa/wp-content/uploads/sites/5/2018/05/Restaurant-booking-app.jpg",
+    video: "/videos/VID-20260719-WA0055.mp4",
+    description:
+      "TableIO a modern restaurant table booking application to provide seamless reservation experience with secure authentication, intuitive navigation, and real-time booking management.",
+    technologies: ["React Native", "Firebase", "NativeWind", "Zod"],
+    github: "https://github.com/RajAnupam01/FullStack_RN_Project-01",
+  },
+
+
+  {
+    id: 4,
     title: "FullStack Authentication",
     type: "mobile",
     image:
@@ -46,7 +59,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "SocialMedia-mobile-App",
     type: "mobile",
     image:
@@ -59,7 +72,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Question-Answer Platform API",
     type: "api",
     image: "https://pbs.twimg.com/media/GuWfJgBWUAAOuY1.jpg",
@@ -74,7 +87,7 @@ export const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
     title: "Digital-Payment Platform API",
     type: "api",
     image:

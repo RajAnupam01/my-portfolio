@@ -9,34 +9,24 @@ import {
 
 export const skills = [
   {
-    title: "Languages",
-    icon:FaCode,
-    items: [
-      "JavaScript (ES6+)",
-      "TypeScript",
-      "Go (Golang)",
-      "Python",
-      "Java",
-      "C"
-
-    ]
-  },
-  {
-    title: "Mobile Development",
+    title: "Mobile App Development",
     icon:FaMobileAlt,
     items: [
       "React Native",
       "Expo",
       "Firebase",
       "Zustand",
+      "zod",
       "TanStack Query",
       "Native Wind" 
     ]
   },
   {
-    title: "Backend Development",
+    title: "Web App Development",
     icon:FaServer,
     items: [
+      "React.js",
+      "TailWind CSS",
       "Node.js",
       "Express.js",
       "RESTful APIs",
@@ -70,4 +60,5 @@ export const skills = [
       "Git & Github"
     ]
   },
+  
 ];

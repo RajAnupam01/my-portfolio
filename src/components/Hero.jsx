@@ -72,7 +72,7 @@ const Hero = () => {
               </button>
 
                 <a
-                  href="/temp/ResumeCopy.pdf"
+                  href="/temp/Resume.pdf"
                   download="Resume.pdf"
                   className="px-6 py-3 rounded-lg border border-white/20 hover:border-purple-500 transition inline-block text-center"
                 >

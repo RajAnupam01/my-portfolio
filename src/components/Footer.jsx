@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div>
             <h2 className="text-2xl font-bold mb-4">
-              &lt; Anu.<span className="text-blue-300">dev</span> /&gt;
+              &lt; Anupam.<span className="text-blue-300">dev</span> /&gt;
             </h2>
 
             <p className="text-gray-400 leading-7">

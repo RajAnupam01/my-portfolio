@@ -8,7 +8,7 @@ const Skills = () => {
           Skills & Technologies
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 ">
           {skills.map((skill) => {
             const IconComponent = skill.icon;
 
