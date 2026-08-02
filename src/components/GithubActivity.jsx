@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { GitHubCalendar } from "react-github-calendar";
 import {
   FaStar,
   FaCodeBranch,
@@ -11,38 +12,11 @@ import {
 } from "../data/github";
 
 const GithubActivity = () => {
-  // Fake contribution matrix
-  const contributionGrid = Array.from(
-    { length: 84 },
-    (_, i) => ({
-      id: i,
-      level: Math.floor(Math.random() * 5),
-    })
-  );
-
-  const getColor = (level) => {
-    switch (level) {
-      case 0:
-        return "bg-slate-800";
-      case 1:
-        return "bg-green-900";
-      case 2:
-        return "bg-green-700";
-      case 3:
-        return "bg-green-500";
-      case 4:
-        return "bg-green-400";
-      default:
-        return "bg-slate-800";
-    }
-  };
-
   return (
     <section className="py-24">
       <div className="container mx-auto px-6">
 
         {/* Header */}
-
         <div className="mb-10">
           <span className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm">
             🐙 GitHub Activity
@@ -53,12 +27,9 @@ const GithubActivity = () => {
           </h2>
         </div>
 
-        {/* Grid */}
-
         <div className="grid lg:grid-cols-3 gap-6">
 
           {/* Contribution Graph */}
-
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -69,39 +40,27 @@ const GithubActivity = () => {
               Contribution Activity
             </h3>
 
-            {/* Month Labels */}
-
-            <div className="flex justify-between text-xs text-gray-500 mb-3">
-              <span>Jan</span>
-              <span>Feb</span>
-              <span>Mar</span>
-              <span>Apr</span>
-              <span>May</span>
-              <span>Jun</span>
-              <span>Jul</span>
-              <span>Aug</span>
-              <span>Sep</span>
-              <span>Oct</span>
-              <span>Nov</span>
-              <span>Dec</span>
+            <div className="overflow-x-auto">
+              <GitHubCalendar
+                username="RajAnupam01"
+                year={2026}
+                colorScheme="dark"
+                blockSize={14}
+                blockMargin={4}
+                fontSize={14}
+                theme={{
+                  dark: [
+                    "#161b22",
+                    "#0e4429",
+                    "#006d32",
+                    "#26a641",
+                    "#39d353",
+                  ],
+                }}
+              />
             </div>
 
-            {/* Graph */}
-
-            <div className="grid grid-cols-12 gap-1 mb-8">
-              {contributionGrid.map((cell) => (
-                <div
-                  key={cell.id}
-                  className={`h-4 rounded-sm ${getColor(
-                    cell.level
-                  )}`}
-                />
-              ))}
-            </div>
-
-            {/* Stats */}
-
-            <div className="grid md:grid-cols-3 gap-6 text-center">
+            <div className="grid md:grid-cols-3 gap-6 text-center mt-8">
 
               <div>
                 <h4 className="text-3xl font-bold text-white">
@@ -137,7 +96,6 @@ const GithubActivity = () => {
           </motion.div>
 
           {/* Top Repositories */}
-
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -153,7 +111,6 @@ const GithubActivity = () => {
             </div>
 
             <div className="space-y-5">
-
               {repositories.map((repo) => (
                 <div
                   key={repo.id}
@@ -166,28 +123,18 @@ const GithubActivity = () => {
                   <p className="text-sm text-gray-400 mb-3">
                     {repo.tech}
                   </p>
-
-                  <div className="flex gap-5 text-sm">
-
-                    <div className="flex items-center gap-2">
-                      <FaStar className="text-yellow-400" />
-                      {repo.stars}
-                    </div>
-
-                    <div className="flex items-center gap-2">
-                      <FaCodeBranch className="text-purple-400" />
-                      {repo.forks}
-                    </div>
-
-                  </div>
                 </div>
               ))}
-
             </div>
 
-            <button className="mt-6 text-purple-400 hover:text-purple-300 transition">
+            <a
+              href="https://github.com/RajAnupam01"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block mt-6 text-purple-400 hover:text-purple-300 transition"
+            >
               View More on GitHub →
-            </button>
+            </a>
           </motion.div>
 
         </div>

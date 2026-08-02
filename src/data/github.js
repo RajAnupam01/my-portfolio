@@ -7,33 +7,25 @@ export const githubStats = {
 export const repositories = [
   {
     id: 1,
-    name: "ShopEase-Mobile",
-    tech: "React Native",
-    stars: 42,
-    forks: 18,
+    name: "Resturant-Booking-Mobile-App",
+    tech: "React Native Expo & Firebase",
   },
 
   {
     id: 2,
-    name: "TaskFlow-API",
-    tech: "Node.js",
-    stars: 37,
-    forks: 12,
+    name: "Messaging-Mobile-App",
+    tech: "React Native Expo & Firebase",
   },
 
   {
     id: 3,
-    name: "CloudGallery",
-    tech: "Node.js",
-    stars: 29,
-    forks: 9,
+    name: "Social-Media-Web-App",
+    tech: "MERN Stack",
   },
 
   {
     id: 4,
-    name: "FinTrack-API",
-    tech: "Node.js",
-    stars: 22,
-    forks: 6,
+    name: "Music-Player-Web-App",
+    tech: "MERN Stack",
   },
 ];
